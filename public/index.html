@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script src="server.js"></script>
+    <form id="form" method="GET" action="/lolApi">
+        Select your server:
+        <select name="server">
+          <option value="br1">BR</option>
+          <option value="na1">NA</option>
+          <option value="KR1">KR</option>
+          <option value="ru">RU</option>
+          <option value="EUW1">EUW</option>
+          <option value="EUN1">EUN</option>
+          <option value="OC1">OC</option>
+          <option value="TR1">TR</option>
+          <option value="LA1">LA1</option>
+          <option value="LA2">LA2</option>
+        </select>
+        <br>
+        <Label for="user">Summoner's Name</label>
+        <Input id="user" name="user" type="text"></input>
+        <input type="submit" value='Search'></input>
+      </form>
+    </body>
+</html>

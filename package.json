@@ -1,0 +1,26 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "y",
+  "main": "y",
+  "scripts": {
+    "test": "y",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "y"
+  },
+  "keywords": [
+    "y"
+  ],
+  "author": "y",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "get-json": "^1.0.0",
+    "leagueapi": "^0.4.21",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
